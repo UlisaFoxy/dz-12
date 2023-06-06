@@ -11,7 +11,7 @@ public class FamilyDataProvTest {
     @BeforeMethod
     public void creatingPerson(){
         woman = new Woman("Andrea", "Larson", 40, "Alex", "doctor", "Smith", "Larson");
-        man = new Man("Alex", "Smith", 65, "Andrea", "carpenter", "Larson", null );
+        man = new Man("Alex", "Smith", 65, "Andrea", "carpenter");
     }
     @DataProvider(name = "gettingWomanFirstName")
     public static Object[][] gettingWomanFirstName() {

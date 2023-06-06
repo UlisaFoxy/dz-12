@@ -2,7 +2,7 @@ package com.rd.family;
 
 public class Main {
     public static void main(String[] args) {
-        Man man = new Man ("Alex", "Smith", 65, "Andrea", "carpenter", "Larson", null );
+        Man man = new Man ("Alex", "Smith", 65, "Andrea", "carpenter");
         Woman woman = new Woman("Andrea", "Larson", 40, "Alex", "doctor", "Smith", "Larson");
         boolean isManRetired = man.getAge() >= 65;
         boolean isWomanRetired = woman.getAge() >= 60;
