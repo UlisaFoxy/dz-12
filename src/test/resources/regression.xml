@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Family test with data prov">
+
+    <test name="Family test">
+        <classes>
+            <class name="homework12.FamilyDataProvTest"/>
+        </classes>
+
+    </test>
+
+</suite>
